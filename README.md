@@ -215,27 +215,19 @@ The tuned model produced performance similar to the baseline, indicating that ef
 
 ---
 
-# 📉 Model Evaluation
+## 📉 Model Evaluation
 
 ### Actual vs Predicted Sales
 
-The model accurately captures regular sales patterns while showing larger errors during rare demand spikes.
+The scatter plot compares the model's predictions with the actual sales values. Most predictions closely follow the ideal diagonal line, indicating that the model effectively captures normal demand patterns while showing expected deviations during rare demand spikes.
 
-```markdown
-![Actual vs Predicted](images/actual_vs_predicted.png)
-```
-
----
+![Actual vs Predicted Sales](images/actual_vs_predicted.png)
 
 ### Residual Distribution
 
-Residuals are centered around zero, indicating that the model is generally unbiased with no significant systematic overprediction or underprediction.
+Residuals are centered around zero, suggesting that the model does not consistently overestimate or underestimate demand. Most prediction errors are small, indicating good overall model stability.
 
-*(Insert image here)*
-
-```markdown
 ![Residual Distribution](images/residual_distribution.png)
-```
 
 ---
 
